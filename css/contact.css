@@ -1,0 +1,107 @@
+.contact-form__title,
+.contact-form__subtitle{
+    display: none;
+}
+
+.contact-form__title{
+    padding: 40px 15px 10px ;
+    text-align: center;
+}
+
+.contact-form__title h3{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: var(--text-title-color);
+}
+
+.contact-form__subtitle{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    color: var(--text-descr-color);
+}
+
+.firstName{
+    padding: 100px 15px 10px
+}
+
+.email{
+    padding: 0 15px 10px;
+}
+
+.phone-number{
+    padding: 0 15px;
+}
+
+.firstName input, 
+.email input, .phone-number input,
+.textArea textarea,
+.question select{
+    width: 100%;
+    padding: 12px 20px;
+    border: 1px solid #E0E0E0;
+}
+
+.firstName input::placeholder,
+.email input::placeholder,
+.phone-number input::placeholder,
+.textArea textarea::placeholder
+{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    color: #828282;;
+}
+
+.textArea{
+    padding: 10px 15px;
+}
+
+.textArea textarea{
+    padding: 12px 20px;
+    width: 100%;
+    height: 200px;
+    resize: none;
+}
+
+.question{
+    padding: 0 15px;
+}
+
+.contact-btn{
+    padding: 60px 0 100px 0;
+    text-align: center;
+}
+
+.contact-btn button{
+    padding: 15px 40px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    background: var(--btn-bg-color);
+    border-radius: 5px;
+    border: transparent;
+    cursor: pointer;
+}
+
+#contact-button{
+    display: none;
+}
+
+.firstName input:focus,
+.email input:focus,
+.phone-number input:focus,
+.textArea textarea:focus,
+.question select:focus{
+    outline: none;
+}

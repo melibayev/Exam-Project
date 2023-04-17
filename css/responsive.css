@@ -1,0 +1,320 @@
+@media (max-width: 1060px){
+    .about-us__cards, .contact__cards{
+        flex-wrap: wrap;
+    }
+    .service{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 70px;
+    }
+}
+
+@media (max-width:900px){
+    .partners{
+        flex-wrap: wrap;
+    }
+
+    .footer-info{
+        gap: 40px;
+    }
+}
+
+@media (max-width: 800px){
+    .nav-left{
+        padding: 12px 50px 12px 60px;
+    }
+
+    .nav-right{
+        padding-left: 20px;
+    }
+
+    .home-section{
+        text-align: center;
+        background-position: center;
+    }
+
+    .home__title{
+        font-size: 40px;
+    }
+
+    .home__btns{
+        padding-bottom: 885px;
+    }
+
+    .cards{
+        margin-top: -680px;
+        flex-direction: column;
+    }
+
+    .card{
+        margin-bottom: 120px; 
+        padding: 35px 40px;
+        margin-left: calc(50% - 160px);
+        gap: 10px;
+        width: 328px;
+        height: 225px;
+        background: #FFFFFF;
+    }
+
+    .about-us__cards{
+        flex-direction: column;
+        width: 328px;
+        height: auto;
+        margin-left: calc(50% - 160px);
+    }
+
+    .ab-us__card{
+        background: #FFFFFF;
+    }
+
+    .advice__cards{
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+
+    .advice__card{
+        width: 300px;
+    }
+
+    .partners{
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    .subscribe{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .email{
+        padding-top: 0;
+    }
+
+    .inputForm input{
+        margin-left: calc(50% - 80px);
+        width: 100%;
+    }
+
+    .contact__cards{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+@media (max-width: 700px){
+    .nav-left{
+        padding: 24px 0 24px 20px;
+        margin-left: 30px;
+    }
+
+    .nav-list {
+        position: fixed;
+        flex-direction: column;
+        justify-content: center;
+        top: -100%;
+        left: 0%;
+        width: 100%;
+        height: 100%;
+        margin-left: 0px;
+        background: #F7F7F7;
+        transition: 0.5s;
+    }
+
+    .nav-item{
+        margin: 20px 0px;
+    }
+
+    .nav-item a {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        /* line-height: 0px; */
+        text-align: center;
+        letter-spacing: 0.2px;
+        color: #737373;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+
+    .nav-right{
+        padding: 20px 40px;
+    }
+
+    .hamburger{
+        padding:  20px;
+        display: flex;
+        align-items: center;
+        background-color:transparent;
+        border: none;
+    }
+
+    .hamburger img, .close img{
+        width: 30px;
+        height: 20px;
+    }
+    
+    .nav-list > img{
+        display: flex;
+        position: absolute;
+        top: 30px;
+        left: 50px;
+    }
+
+    .close{
+        display: flex;
+        position: absolute;
+        top: 50px;
+        right: 58px;
+        background-color: transparent;
+        border: none;
+    }
+
+    .home__title, .home__btns,
+    .home__subtitle{
+        padding-left: 0px;
+    }
+
+    .service-left {
+        padding: 0 20px;
+    }
+
+    .service-left img{
+        width: 100%;
+    }
+
+    .inputForm input{
+        margin-left: calc(50% - 80px);
+    }
+
+    .contact-form__title,
+    .contact-form__subtitle{
+        display: block;
+    }
+
+    .contact-form form{
+        display: none;
+    }
+
+    .contactForm{
+        padding-top: 70px;
+    }
+
+    .contact-btn{
+        padding: 50px 0 40px;
+    }
+
+    #contact-button{
+        display: block;
+    }
+
+
+    .footer-info{
+        flex-direction: column;
+        text-indent: 25%;
+        gap: 10px;
+    }
+
+    .footer-info li{
+        padding: 5px 0;
+    }
+
+    .footer-description__info{
+        flex-direction: column;
+    }
+
+    .footer-left{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .footer-right{
+        padding: 25px 50px 30px;
+    }
+
+}
+
+@media (max-width: 400px){
+    .nav-left {
+        padding: 20px;
+        margin-left: 0px;
+    }
+
+    .nav-right{
+        padding: 10px;
+    }
+
+    .nav-list > img{
+        top: 25px;
+        left: 25px;
+    }
+    .close{
+        top: 48px;
+        right: 27px;
+    }
+
+    .home__title{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .home__subtitle{
+        padding: 5px;
+    }
+
+    .home__btns{
+        padding-left: 0 ; 
+    }
+
+    .home__btns .first-btn, 
+    .home__btns .second-btn{
+        padding: 10px 20px;
+    }
+
+    .about-us__cards{
+        padding: 5px;
+    }
+
+    .advice__card{
+        width: 220px;
+    }
+
+    .service-right__title, 
+    .service-right__subtitle,
+    .service-left,.service-right{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .service-right__title {
+        text-align: center;
+        font-size: 32px;
+    }
+
+    .service-right__subtitle{
+        text-align: center;
+    }
+
+    .services__subtitle{
+        padding: 10px 5px 50px 5px;
+    }
+
+    .inputForm input{
+        margin-left: 50px;
+        padding: 16px 24px;
+    }
+
+    .buttonForm button{
+        margin-left: 15px;
+        padding: 10px 7px;
+    }
+
+    .footer-info{
+        padding-left: 5px;
+    }
+}

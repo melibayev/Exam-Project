@@ -1,0 +1,514 @@
+/* HOME SECTION */
+.home-section{
+    margin-top: 70px;
+    padding-top: 0px;
+    background: url(../images/background.svg);
+    background-size: cover;
+}
+
+.home__title{
+    padding: 100px 0px 35px 20px;
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 1.38em;
+    letter-spacing: 0.2px;
+    color: var(--text-title-color);
+}
+
+.home__subtitle{
+    padding-left: 20px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.5em;
+    letter-spacing: 0.2px;
+    color: var(--text-descr-color);
+}
+
+.home__btns{
+    padding: 35px 0 250px 20px ;
+}
+
+.home__btns .first-btn{
+    padding: 10px 36px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 2em;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    background: var(--btn-bg-color);
+    border-radius: 37px;
+    border: transparent;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.home__btns .second-btn{
+    padding: 10px 36px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    border: 1px solid #00A0C1;
+    background-color: white;
+    border-radius: 37px;
+    cursor: pointer;
+}
+
+/* /HOME SECTION */
+
+/* HOME CARDS */
+.cards{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    background-color: transparent;
+}
+
+.card{
+    margin-top: -120px;
+    padding: 45px 40px;
+    gap: 10px;
+    height: auto;
+    background: #FFFFFF;
+    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+    flex-grow: 1;
+    transition: 0.5s;
+}
+
+.card .card__title{
+    padding-top: 10px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+}
+
+.card__description{
+    padding-top: 10px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: var(--text-descr-color);
+}
+
+.card:hover {
+    background-color: rgba(0, 160, 193, 1);
+}
+
+.card:hover path{
+    fill: white;
+}
+
+.card:hover .card__title,
+.card:hover .card__description{
+    color: white;
+}
+
+/* /HOME CARDS */
+
+/* ABOUT US SECTION */
+.about-us__title{
+    padding-top: 220px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: var(--text-title-color);
+}
+
+.about-us__subtitle{
+    padding: 10px 0 50px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: var(--text-descr-color);
+}
+
+.about-us__cards{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    padding-bottom: 80px;
+}
+
+.ab-us__card{   
+    padding: 30px 40px;
+    text-align: center;
+    background-color: transparent;
+    background-color: #FFFFFF;;
+}
+
+.ab-us__card__image{
+    padding: 30px 60px 0;
+}
+
+.ab-us__card .ab-us__card__title{
+    padding: 10px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: var(--text-title-color);
+}
+
+.ab-us__card .ab-us__card__subtitle{
+    padding: 10px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: var(--text-descr-color);
+}
+
+.ab-us__card:hover{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* /ABOUT US SECTION */
+
+/* ADVICES SECTION */
+.advice-section{
+    background-color: #FAFAFA;
+}
+
+.advice__title{
+    padding-top: 130px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color:var(--text-title-color);
+}
+
+.advice__subtitle{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: var(--text-descr-color);
+}
+
+.advice__cards{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-bottom: 80px;
+}
+
+.advice__card{
+    width: 25%;
+    margin: 0 10px;
+    background: #FFFFFF;
+}
+
+.advice__card__title{
+    padding: 30px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: var(--text-title-color);
+}
+
+.advice__card__description{
+    padding: 0 30px 30px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: var(--text-descr-color);
+}
+
+.advice__card__image{
+    background: url(../images/cover1.svg);
+    background-size: cover;
+    width: 100%;
+    height: 138px;
+}
+
+.advice__card__image2{
+    background: url(../images/cover2.svg);
+    background-size: cover;
+    width: 100%;
+    height: 138px;
+}
+
+.advice__card__image3{
+    background: url(../images/cover3.svg);
+    background-size: cover;
+    width: 100%;
+    height: 138px;
+}
+
+.advice__card__image4{
+    background: url(../images/cover4.svg);
+    background-size: cover;
+    width: 100%;
+    height: 138px;
+}
+
+/* /ADVICES SECTION */
+
+/* SERVICES SECTION */
+
+.services__title{
+    padding-top: 100px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: var(--text-title-color);
+}
+
+.services__subtitle{
+    padding: 15px 0 100px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: var(--text-descr-color);
+}
+
+.service{
+    display: flex;
+    gap: 120px;
+}
+
+.service-left{
+    cursor: pointer;
+}
+
+.service-right__title{
+    padding-top: 15px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.425em;
+    letter-spacing: 0.2px;
+    color: var(--text-title-color);
+}
+
+.service-right__subtitle{
+    padding: 10px 0 50px 0;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.42em;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+
+.service-right__description{
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    padding-bottom: 30px;
+}
+
+.service-right__description__right p{
+    font-weight: 700;
+    font-size: 1em;
+    line-height: 2em;
+    letter-spacing: 0.1px;
+    color: var(--text-title-color);
+}
+
+.service-right__description__right span{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+
+/* /SERVICES SECTION */
+
+/* PARTNERS */
+
+.partners{
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 80px;
+}
+
+/* /PARTNERS  */
+
+/* SUBSCRIBE */
+
+.subscribe-section{
+    padding-top: 40px;
+}
+
+.subscribe{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--main-bg-color);
+}
+
+.subscribe-section h1{
+    padding: 30px 50px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: start;
+    letter-spacing: 0.1px;
+    color: #FFFFFF;
+}
+
+.subscribe-email{
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.buttonForm button{
+    margin-left: -10px;
+    margin-right: 40px;
+    padding: 15px 20px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    background: var(--btn-bg-color);
+    border: 1px solid #E6E6E6;
+    border-radius: 0px 5px 5px 0px;
+    cursor: pointer;
+}
+
+.inputForm input{
+    margin-left: -300px;  
+    padding: 22px 150px 20px 20px;
+    background: #F9F9F9;
+    border: 1px solid #E6E6E6;
+    border-radius: 5px;
+}
+
+.subscribe-email input:focus{
+    outline: none;
+    border-color: transparent;
+}
+
+/* /SUBSCRIBE */
+
+/* CONTACT-US SECTION */
+
+.contact-section{
+    text-align: center;
+    padding-bottom: 200px;
+    background-color: #F3F3F3;
+}
+
+.contact__title{
+    padding-top: 200px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: var(--text-title-color);
+}
+
+.contact__subtitle{
+    padding: 10px 0 80px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: var(--text-descr-color);
+}
+
+.contact__cards{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.contact__card{
+    background: #FFFFFF;
+    padding-bottom: 30px;
+    transition: 0.5s;
+}
+
+.contact__card__image{
+    padding: 50px 120px 15px;
+}
+
+.contact__card__title{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: var(--text-title-color);
+}
+
+.contact__card__subtitle{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: var(--text-title-color);
+}
+
+.contact__card__description{
+    padding: 15px 0;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: var(--text-title-color);
+}
+
+.contact__card button{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: var(--btn-bg-color);
+    border: 1px solid var(--btn-bg-color);
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.contact__card:hover path{
+    fill: white;
+}
+
+.contact__card:hover{
+    background-color: var(--text-title-color);
+}
+
+.contact__card:hover .contact__card__title,
+.contact__card:hover .contact__card__subtitle,
+.contact__card:hover .contact__card__description,
+.contact__card:hover .btn{
+    color: white;
+}
+
+.contact__card:hover .btn{
+    border-color: white;
+}
+
+/* /CONTACT-US SECTION */
